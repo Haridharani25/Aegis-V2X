@@ -1,7 +1,5 @@
 
-from simulation.fault_injection.sensing_faults import (
-    SensingFaultInjector,
-)
+from simulation.fault_injection.sensing_faults import SensingFaultInjector
 
 
 def test_measurement_without_fault():

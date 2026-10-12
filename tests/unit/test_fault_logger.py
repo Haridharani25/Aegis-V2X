@@ -23,7 +23,7 @@ def test_logger_writes_event(tmp_path):
     assert saved_event["fault"] == "packet_loss"
     assert saved_event["scenario_id"] == "test_scenario_01"
     assert saved_event["outcome"]["delivered"] is False
-    assert saved_event == event if False else True
+    assert saved_event["component"] == "communication"
 
 
 def test_logger_appends_multiple_events(tmp_path):

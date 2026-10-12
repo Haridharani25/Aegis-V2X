@@ -1,7 +1,5 @@
 
-from simulation.fault_injection.communication_faults import (
-    CommunicationFaultInjector,
-)
+from simulation.fault_injection.communication_faults import CommunicationFaultInjector
 
 
 def test_message_delivered_without_fault():
