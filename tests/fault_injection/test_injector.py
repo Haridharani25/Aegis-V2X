@@ -1,5 +1,10 @@
 from simulation.fault_injection.injector import FaultInjector
-from simulation.fault_injection.schemas import FaultCategory, FaultConfig, FaultType, ScenarioFaultPlan
+from simulation.fault_injection.schemas import (
+    FaultCategory,
+    FaultConfig,
+    FaultType,
+    ScenarioFaultPlan,
+)
 
 
 def _make_plan(scenario_id="TestScenario", seed=42, faults=None):
