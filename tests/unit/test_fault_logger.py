@@ -1,4 +1,3 @@
-
 import json
 
 from simulation.fault_injection.fault_logger import FaultLogger

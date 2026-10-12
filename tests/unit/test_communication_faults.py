@@ -1,4 +1,3 @@
-
 from simulation.fault_injection.communication_faults import CommunicationFaultInjector
 
 

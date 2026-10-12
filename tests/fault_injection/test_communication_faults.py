@@ -59,9 +59,7 @@ def test_jitter_is_reproducible_given_seed(synthetic_frame):
 
 def test_bandwidth_reduction_zero_severity_keeps_all_frames(synthetic_frame, rng):
     for i in range(10):
-        result = apply_bandwidth_reduction(
-            synthetic_frame, severity=0.0, rng=rng, frame_index=i
-        )
+        result = apply_bandwidth_reduction(synthetic_frame, severity=0.0, rng=rng, frame_index=i)
         assert result is not None
 
 
